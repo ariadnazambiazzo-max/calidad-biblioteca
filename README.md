@@ -1,3 +1,2 @@
 # calidad-biblioteca
 
-Hello, world!
