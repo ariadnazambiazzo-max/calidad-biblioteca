@@ -1,3 +1,10 @@
-# calidad-biblioteca
+# Sistema de Biblioteca
 
-Hello, world!
+API REST desarrollada en Java + Spring Boot para analizar la calidad de software.
+
+Funcionalidades:
+- Alta de usuarios
+- Alta de libros
+- Préstamos
+- Devoluciones
+
