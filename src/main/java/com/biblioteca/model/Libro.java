@@ -15,8 +15,6 @@ public class Libro {
 
     private boolean prestado;
 
-    private static final String MENSAJE_NO_SE_PUEDE_PRESTAR = "No se puede prestar";
-
     public Libro() {
     }
 
@@ -62,23 +60,12 @@ public class Libro {
         this.prestado = prestado;
     }
 
+    private boolean datosValidos() { return titulo != null && !titulo.isEmpty() && autor != null && !autor.isEmpty(); }
+
+
     public String prestar() {
 
-        if (titulo == null) {
-            return "No se puede prestar";
-        }
-
-        if (titulo.isEmpty()) {
-            return "No se puede prestar";
-        }
-
-        if (autor == null) {
-            return "No se puede prestar";
-        }
-
-        if (autor.isEmpty()) {
-            return "No se puede prestar";
-        }
+        if (!datosValidos()) { return "No se puede prestar"; }
 
         if (prestado) {
             return "El libro ya está prestado";
