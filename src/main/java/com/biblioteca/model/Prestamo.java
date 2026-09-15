@@ -4,9 +4,6 @@ import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
-import jakarta.persistence.*;
-import java.time.LocalDate;
-
 @Entity
 public class Prestamo {
 
