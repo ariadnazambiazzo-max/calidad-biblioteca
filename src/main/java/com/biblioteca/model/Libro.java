@@ -60,7 +60,8 @@ public class Libro {
         this.prestado = prestado;
     }
 
-    private boolean datosValidos() { return titulo != null && !titulo.isEmpty() && autor != null && !autor.isEmpty(); }
+    private boolean datosValidos() {
+        return titulo != null && !titulo.isEmpty() && autor != null && !autor.isEmpty(); }
 
 
     public String prestar() {
