@@ -1,6 +1,6 @@
 # Sistema de Biblioteca
 
-API REST desarrollada en Java + Spring Boot para analizar la calidad de software utilizando SonarQube.
+API REST desarrollada en Java + Spring Boot para analizar la calidad del proyecto utilizando SonarQube.
 
 Funcionalidades:
 - Alta de usuarios
